@@ -1,0 +1,35 @@
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+
+html {
+    /*font-size: 62.5px;*/
+}
+
+.first-flex h2 {
+    background-color: cornsilk;
+    color: forestgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-flex {
+    background-color: cornsilk;
+    color: forestgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 2.5%;
+}
+
+button {
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    padding: 2.5% 1%;
+    background-color: cornsilk;
+}
