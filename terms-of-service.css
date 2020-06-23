@@ -10,6 +10,13 @@ html {
     font-size: 62.5px;
 }
 
+.first-flex {
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .first-flex h2 {
     background-color: cornsilk;
     color: darkgreen;
@@ -19,22 +26,31 @@ html {
 
 .first-flex nav {
     background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
 }
 
 nav a {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     color: darkgreen;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .second-flex {
-    background-color: cornsilk;
-    color: darkgreen;
+    background-color: darkgreen;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5% 2.5%;
     font-size: 0.3rem;
     text-align: center;
+}
+
+.second-flex p {
+    width: 45%;
+    margin: auto;
 }
 
 #tosPicture {
