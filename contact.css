@@ -3,27 +3,49 @@
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 
 html {
-    /*font-size: 62.5px;*/
+    font-size: 62.5px;
+}
+
+.first-flex nav {
+    background-color: cornsilk;
+}
+
+nav a {
+    font-size: 0.5rem;
+    color: darkgreen;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .first-flex h2 {
     background-color: cornsilk;
-    color: forestgreen;
+    color: darkgreen;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
 }
 
 .second-flex {
     background-color: cornsilk;
-    color: forestgreen;
+    color: darkgreen;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5% 2.5%;
+    font-size: 0.3rem;
+    text-align: center;
 }
 
 footer {
-    padding: 2.5% 1%;
+    padding: 5.5% 1%;
     background-color: cornsilk;
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+footer a {
+    font-style: italic;
+    color: black;
+    text-decoration: none;
 }
