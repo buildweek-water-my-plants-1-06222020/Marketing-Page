@@ -1,0 +1,134 @@
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /*border:1px solid grey;*/
+}
+
+html {
+    font-size: 62.5px;
+}
+
+.first-flex {
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-flex h2 {
+    background-color: cornsilk;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    width: 30%;
+    text-align: center;
+}
+
+.first-flex nav {
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+nav a {
+    font-size: 0.4rem;
+    color: darkgreen;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-flex {
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 2.5%;
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+.second-flex h1 {
+    margin: 1% 0%;
+}
+
+button {
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#service1 {
+    margin: 3%;
+    text-align: center;
+    font-size: 0.3rem;
+    width: 40%;
+    line-height: 50px;
+}
+
+.third-flex img {
+    border-radius: 30px;
+}
+
+#service2 {
+    margin: 3%;
+    text-align: center;
+    font-size: 0.3rem;
+    width: 40%;
+    line-height: 50px;
+}
+
+#service3 {
+    margin: 3%;
+    text-align: center;
+    font-size: 0.3rem;
+    width: 40%;
+    line-height: 50px;
+}
+
+#service4 {
+    margin: 3%;
+    text-align: center;
+    font-size: 0.3rem;
+    width: 40%;
+    line-height: 50px;
+}
+
+#service5 {
+    margin: 3%;
+    text-align: center;
+    font-size: 0.3rem;
+    width: 40%;
+    line-height: 50px;
+}
+
+#service6 {
+    margin: 3%;
+    text-align: center;
+    font-size: 0.3rem;
+    width: 40%;
+    line-height: 50px;
+}
+
+footer {
+    padding: 5.5% 1%;
+    background-color: cornsilk;
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+footer a {
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}

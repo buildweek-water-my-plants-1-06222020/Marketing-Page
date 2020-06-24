@@ -1,0 +1,132 @@
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /*border:1px solid grey;*/
+}
+
+html {
+    font-size: 62.5px;
+}
+
+.first-flex {
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-flex h2 {
+    background-color: cornsilk;
+    color: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    width: 30%;
+    text-align: center;
+}
+
+.first-flex nav {
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+nav a {
+    font-size: 0.4rem;
+    color: darkgreen;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#call-us {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.3rem;
+    padding: 5% 2.5%;
+    line-height: 0.5rem;
+}
+
+#working-hours {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.3rem;
+    padding: 5% 2.5%;
+    line-height: 0.5rem;
+}
+
+.second-flex {
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 2.5%;
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+.second-flex h1 {
+    margin: 1% 0%;
+}
+
+.third-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    padding: 5.5% 1%;
+    background-color: cornsilk;
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+footer a {
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20% auto;
+    border-radius: 30px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+  
