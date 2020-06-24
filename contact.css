@@ -41,6 +41,27 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.info {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#call-us {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.3rem;
+    padding: 5% 2.5%;
+}
+
+#working-hours {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.3rem;
+    padding: 5% 2.5%;
+}
+
 .second-flex {
     background-color: darkgreen;
     color: white;
@@ -52,6 +73,11 @@ nav a {
 
 .second-flex h1 {
     margin: 1% 0%;
+}
+
+.third-flex {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer {
@@ -66,3 +92,38 @@ footer a {
     color: black;
     text-decoration: none;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20% auto;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+  
