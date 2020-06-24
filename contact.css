@@ -3,7 +3,7 @@
     padding:0;
     margin:0;
     max-width:100%;
-    /*border:1px solid grey;*/
+    border:1px solid grey;
 }
 
 html {
@@ -129,4 +129,52 @@ footer a {
     background: #125688;
     color: white;
 }
-  
+
+
+@media(max-width: 500px) {
+    .first-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-flex h2 {
+        width: 100%;
+    }
+
+    .first-flex nav {
+        flex-direction: column;
+        width: 100%;
+        margin: 3% auto;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .third-flex {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+
+@media(max-width: 1000px) {
+    .first-flex {
+        display: flex;
+    }
+
+    .first-flex h2 {
+        width: 100%;
+    }
+
+    .first-flex nav {
+        width: 100%;
+    }
+    
+    .info {
+        display: flex;
+    }
+}

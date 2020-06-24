@@ -66,6 +66,7 @@ button {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    line-height: 50px;
 }
 
 #service1 {
@@ -73,7 +74,6 @@ button {
     text-align: center;
     font-size: 0.3rem;
     width: 40%;
-    line-height: 50px;
 }
 
 .third-flex img {
@@ -85,7 +85,6 @@ button {
     text-align: center;
     font-size: 0.3rem;
     width: 40%;
-    line-height: 50px;
 }
 
 #service3 {
@@ -93,7 +92,6 @@ button {
     text-align: center;
     font-size: 0.3rem;
     width: 40%;
-    line-height: 50px;
 }
 
 #service4 {
@@ -101,7 +99,6 @@ button {
     text-align: center;
     font-size: 0.3rem;
     width: 40%;
-    line-height: 50px;
 }
 
 #service5 {
@@ -109,7 +106,6 @@ button {
     text-align: center;
     font-size: 0.3rem;
     width: 40%;
-    line-height: 50px;
 }
 
 #service6 {
@@ -117,7 +113,6 @@ button {
     text-align: center;
     font-size: 0.3rem;
     width: 40%;
-    line-height: 50px;
 }
 
 footer {
@@ -131,4 +126,74 @@ footer a {
     font-style: italic;
     color: black;
     text-decoration: none;
+}
+
+
+@media(max-width: 500px) {
+    .first-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-flex h2 {
+        width: 100%;
+    }
+
+    .first-flex nav {
+        flex-direction: column;
+        width: 100%;
+        margin: 3% auto;
+    }
+
+    .second-flex button{
+        margin: 3% auto;
+    }
+
+    .third-flex {
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
+
+    #service1 {
+        width: 80%;
+    }
+
+    #service2 {
+        width: 80%;
+    }
+
+    #service3 {
+        width: 80%;
+    }
+
+    #service4 {
+        width: 80%;
+    }
+
+    #service5 {
+        width: 80%;
+    }
+
+    #service6 {
+        width: 80%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .first-flex {
+        display: flex;
+    }
+
+    .first-flex h2 {
+        width: 100%;
+    }
+
+    .first-flex nav {
+        width: 100%;
+    }
+
+    .third-flex {
+        line-height: 35px;
+    }
 }
