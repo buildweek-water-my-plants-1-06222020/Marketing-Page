@@ -76,6 +76,10 @@ button {
     line-height: 50px;
 }
 
+.third-flex img {
+    border-radius: 30px;
+}
+
 #service2 {
     margin: 3%;
     text-align: center;

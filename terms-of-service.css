@@ -59,6 +59,10 @@ nav a {
     margin: auto;
 }
 
+#tosPicture img {
+    border-radius: 30px;
+}
+
 #tosPicture {
    display: flex;
    justify-content: center;
