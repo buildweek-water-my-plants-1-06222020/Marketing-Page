@@ -135,18 +135,18 @@ table {
 /* RESET */
 html,
 body {
-  font-size: 62.5%;
+  font-size: 62.5px;
   height: 100%;
   font-weight: 500;
   width: 100%;
   margin: 0 auto;
 }
 h3 {
-  font-size: 3.5rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 p {
-  font-size: 2.5rem;
+  font-size: 0.4rem;
   line-height: 1.6;
   letter-spacing: 0.1 rem;
 }
@@ -164,11 +164,9 @@ img{
   background-color: cornsilk;
   color: darkgreen;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3.2rem;
-  font-weight: 700;
+  font-size: 0.5rem;
   width: 30%;
   text-align: center;
-  line-height: 1.2;
 }
 
 .first-flex nav {
@@ -180,7 +178,7 @@ img{
 }
 
 nav a {
-  font-size: 2.7rem;
+  font-size: 0.4rem;
   color: darkgreen;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -250,7 +248,7 @@ nav a {
     margin-bottom: 5%;
 }
 .rightSideText button{
-    font-size: 2.5rem;
+    font-size: 0.3rem;
     line-height: 1.6;
   letter-spacing: 0.1 rem;
   padding: 0.5%;
@@ -258,7 +256,6 @@ nav a {
 }
 footer nav a{
     text-decoration: none;
-    font-size: 1.7rem;
     display: flex;
     justify-content: center;
     color: black;
