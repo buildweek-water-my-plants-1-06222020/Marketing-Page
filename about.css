@@ -135,58 +135,80 @@ table {
 /* RESET */
 html,
 body {
-  font-size: 62.5%;
+  font-size: 62.5px;
   height: 100%;
   font-weight: 500;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 h3 {
-  font-size: 3rem;
+  font-size: 0.8rem;
   text-align: center;
-  margin: 5% 0 ;
 }
 p {
-  font-size: 2.5rem;
+  font-size: 0.4rem;
   line-height: 1.6;
   letter-spacing: 0.1 rem;
 }
-.logo{
-    margin-left: 2%;
-    margin-right: 2%;
+img{
+  border-radius: 30px;
 }
-header {
+.first-flex {
+  background-color: cornsilk;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
-header nav {
-  font-size: 2.5rem;
-  display: flex;
+
+.first-flex h2 {
+  background-color: cornsilk;
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+  width: 30%;
+  text-align: center;
 }
-header nav a{
-    display: flex;
-    justify-content: space-between;
-    width: 30%;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    text-align: center;
+
+.first-flex nav {
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 35%;
+}
+
+nav a {
+  font-size: 0.4rem;
+  color: darkgreen;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+.main-top{
+  background-color: darkgreen;
+  color: white;
 }
 .infoAndPic{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
 }
 .infoAndPic p{
-    width: 50%;
+    width: 30%;
     margin-left: 10%;
+    margin-top: 5%;
 }
 .infoAndPic .aboutImage{
     width: 20%;
     height: auto;
     position: relative;
+    margin-left: 10%;
 }
 .mission{
-    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+.mission p{
+  margin-top: 2%;
 }
 .info1{
     background-image:url(https://images.unsplash.com/photo-1495908333425-29a1e0918c5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
@@ -194,7 +216,6 @@ header nav a{
     height: 60vh;
     width: 100%;
     background-repeat:no-repeat;
-    margin: 5% 0;
 }
 .info2{
     background-image:url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1335&q=80);
@@ -224,16 +245,21 @@ header nav a{
 }
 .rightSideText p{
     width: 30%;
+    margin-bottom: 5%;
 }
 .rightSideText button{
-    font-size: 2.5rem;
+    font-size: 0.3rem;
     line-height: 1.6;
   letter-spacing: 0.1 rem;
-  padding: 1%;
+  padding: 0.5%;
+  border-radius: 2rem;
 }
 footer nav a{
     text-decoration: none;
-    font-size: 2.5rem;
     display: flex;
     justify-content: center;
+    color: black;
+    font-style: italic;
+    padding: 7% 0;
+    background-color: cornsilk;
 }
