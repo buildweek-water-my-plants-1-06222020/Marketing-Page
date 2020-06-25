@@ -274,9 +274,6 @@ footer a:hover{
     flex-direction: column;
     align-items: center;
   }
-  .map img{
-    width: 70%;
-  }
   .directionButton {
     width: 80%;
     display: flex;
@@ -326,7 +323,7 @@ footer a:hover{
     align-items: center;
   }
   .map img{
-    width: 70%;
+    width: 80%;
   }
   .directionButton {
     width: 80%;
