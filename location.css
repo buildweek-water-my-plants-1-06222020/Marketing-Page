@@ -169,6 +169,11 @@ img{
   text-align: center;
 }
 
+.first-flex h2:hover{
+  color: black;
+  font-style: italic;
+}
+
 .first-flex nav {
   background-color: cornsilk;
   display: flex;
@@ -184,6 +189,11 @@ nav a {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2;
 }
+
+nav a:hover{
+  text-transform: uppercase;
+}
+
 .main-top {
   display: flex;
   justify-content: space-evenly;
@@ -243,6 +253,9 @@ footer nav a {
   color: black;
   padding: 7% 0;
   background-color: cornsilk;
+}
+footer a:hover{
+  text-transform: uppercase;
 }
 
 @media(max-width: 500px) {
