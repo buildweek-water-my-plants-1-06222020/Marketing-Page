@@ -169,6 +169,11 @@ img{
   text-align: center;
 }
 
+.first-flex h2:hover{
+  color: black;
+  font-style: italic;
+}
+
 .first-flex nav {
   background-color: cornsilk;
   display: flex;
@@ -184,6 +189,11 @@ nav a {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.2;
 }
+
+nav a:hover{
+  text-transform: uppercase;
+}
+
 .main-top{
   background-color: darkgreen;
   color: white;
@@ -193,14 +203,13 @@ nav a {
     justify-content:center;
 }
 .infoAndPic p{
-    width: 30%;
+    width: 50%;
     margin-left: 10%;
     margin-top: 5%;
 }
 .infoAndPic .aboutImage{
     width: 20%;
     height: auto;
-    position: relative;
     margin-left: 10%;
 }
 .mission{
@@ -262,4 +271,94 @@ footer nav a{
     font-style: italic;
     padding: 7% 0;
     background-color: cornsilk;
+}
+footer a:hover{
+  text-transform: uppercase;
+}
+
+@media(max-width: 500px) {
+  .mission{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission h3{
+    width: 90%;
+    margin: 0;
+  }
+  .mission p{
+    width: 90%;
+    margin: 0;
+  }
+}
+
+@media(max-width: 800px) {
+  .first-flex {
+      display: flex;
+      flex-direction: column;
+  }
+  .first-flex h2 {
+      width: 100%;
+  }
+  .first-flex nav {
+      flex-direction: column;
+      width: 100%;
+      margin: 3% auto;
+  }
+  .infoAndPic{
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoAndPic p{
+    width: 90%;
+  }
+  .infoAndPic .aboutImage{
+    width: 90%;
+    margin-left: 0;
+  }
+  .rightSideText{
+    align-items: center;
+  }
+  .rightSideText p{
+    width: 80%;
+  }
+}
+@media(max-width: 1000px) {
+  .first-flex h2 {
+    width: 100%;
+  }
+  .first-flex nav {
+    width: 100%;
+  }
+  .third-flex {
+    line-height: 35px;
+  }
+  .infoAndPic{
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoAndPic p{
+    width: 90%;
+  }
+  .infoAndPic .aboutImage{
+    width: 50%;
+    margin-left: 0;
+    margin-top: 5%;
+  }
+  .mission{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .mission h3{
+    width: 90%;
+  }
+  .mission p{
+    width: 90%;
+  }
 }
